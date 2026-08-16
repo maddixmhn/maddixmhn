@@ -12,6 +12,10 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
       - name: Test n8n webhook
         id: webhook
         run: |
