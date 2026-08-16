@@ -1,0 +1,6 @@
+{
+  "status": "$STATUS",
+  "n8n": "$N8N",
+  "github_api": "$GH",
+  "checked_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+}

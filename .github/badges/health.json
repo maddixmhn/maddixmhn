@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "label": "health",
+  "message": "$STATUS",
+  "color": "$COLOR",
+  "isError": false,
+  "namedLogo": "githubactions"
+}
